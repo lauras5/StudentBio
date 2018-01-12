@@ -1,3 +1,19 @@
-.floatleft {
+body {
+    font-family: Athiti;
+}
+.docbio {
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+img {
     float: left;
+    border: 5px solid dimgrey;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: dimgrey;
 }
