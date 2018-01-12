@@ -1,31 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" type="text/css" href="student-bio.css">
     <link href='https://fonts.googleapis.com/css?family=Athiti' rel='stylesheet'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-</head>
-<body>
-<div class="docbio">
-    <h1>Student Bio</h1>
-    <h2>Laura Salcido</h2>
-    <img src="https://i.imgur.com/SfOq6Nv.png" height="200px" width="300px" alt="rickmorty">
-    <p class="floatleft">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur quam aspernatur necessitatibus, quo maiores obcaecati porro libero veniam provident quia reiciendis mollitia magni beatae nostrum sed cupiditate voluptates saepe! Repellat.
-    Nesciunt unde laboriosam aspernatur iste sapiente delectus magnam ipsa. Eum alias quidem adipisci, molestias itaque eos recusandae, distinctio porro iure ipsum ducimus dolores eligendi. Rem itaque repellat impedit vitae deleniti?
-    Totam doloribus dolor, repudiandae facere recusandae voluptas architecto praesentium, aspernatur est illo nulla rem at. Voluptas commodi veniam, in ex qui reprehenderit impedit, sed quis, a id officiis iusto ipsa!
-    Eos id, architecto animi dolor esse quod explicabo mollitia aspernatur odit sapiente ipsam voluptatibus cupiditate? Obcaecati in assumenda nihil voluptates sunt similique quia beatae, expedita odit ex dolor sapiente omnis?
-    Sint facilis, iste, voluptatibus adipisci voluptatem praesentium cupiditate magnam illum maiores id aspernatur error quibusdam similique explicabo sequi eveniet enim ad, unde eum delectus minus ipsam odit distinctio corrupti. Sint?
-<br><br>    
-    <h2>Contact Info</h2>
+    <style>
+        body {
+            background-color: #efeee7;
+            font-family: "athiti", 'Times New Roman', Times, serif;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
 
-    <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">laurasalcido</a></li>
-        <li><strong>Portfolio:</strong><a href="#">coming soon</a></li>
-    </ul>
+        #header {
+            background-color: #333333;
+            margin-top: 10px;
+            width: 1024px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #eee;
+            font-size: 30px;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 26px;
+            text-align: center;
+        }
+        
+        #name {
+            text-align: left;
+        }
+        .container {
+            width: 1024px;
+            align: center;
+            margin: 0 auto;
+        }
+
+        #main-bio, #contact-info, #bio-image {
+            float: left;
+        }
+
+        #main-bio {
+            width: 70%;
+            font-size: 16px;
+        }
+
+        #contact-info {
+            width: 30%;
+            line-height: 36px;
+            font-size: 16px;
+            background-color: white;
+            margin-top: 70px;
+        }
+
+        #bio-image {
+            width: 200px;
+            height: 200px;
+            margin-right: 20px;
+            background-color: white;
+        }
+
+        a {
+            color: #fc7968;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: dimgrey;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div id="header">
+    <h1>Student Bio</h1>
 </div>
+
+<div class="container">
+    <section id="main-bio">
+        <h2 id="name">Laura Salcido</h2>
+    
+        <img id="bio-image" src="https://cdn.pixabay.com/photo/2017/07/12/03/39/frog-2495709_960_720.png" alt="rickmorty">
+    
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit tempore repudiandae exercitationem sunt eligendi aliquid asperiores esse neque, velit perspiciatis quibusdam, minus sit! Ab natus quis corporis aperiam, necessitatibus ipsam.
+            Reiciendis ratione nihil illum libero velit quo sunt, suscipit ducimus quidem dolore molestiae, dolor deleniti voluptatem? Atque ipsam modi eius aliquid, iusto rem dolorem blanditiis vitae est voluptatem totam exercitationem.
+            Animi ea minus sapiente dolor consequatur saepe nobis cum dolores excepturi error rerum dolorum consectetur eaque voluptatem illo, ex nam ducimus unde enim ullam accusamus aut explicabo pariatur eum. Dignissimos!
+            Reprehenderit perspiciatis soluta corrupti quis cum, quod distinctio minima rem nulla ipsum. In itaque ducimus optio recusandae natus quibusdam autem officiis iusto, ea voluptas deserunt aliquam adipisci harum nostrum esse?
+            Cupiditate sed officiis omnis veniam inventore quasi nemo fugit, ipsam consequatur animi quas fuga voluptatum tempore dolorem id quaerat culpa dolore dolor. Nulla dolor amet voluptatibus quidem ut! Nemo, debitis.
+            Quas aspernatur eligendi maxime voluptatem? Expedita amet eligendi, ea explicabo libero excepturi officia, repellendus nostrum optio reiciendis obcaecati! Adipisci magnam placeat optio voluptate. Quidem natus porro dignissimos beatae ex id?
+       </p>
+    </section>
+
+    <section id="contact-info">
+        <h2>Contact Info</h2>
+        <ul>
+            <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
+            <li><strong>Github:</strong> <a href="#">laurasalcido</a></li>
+            <li><strong>Portfolio:</strong><a href="#">coming soon</a></li>
+            <li><strong>Blog:</strong><a href="http://elzeeandtheweb.com/" target="_blank">elzeeandtheweb.com</a></li>
+        </ul>
+    </section>
+
+</div>
+
 </body>
 </html>
